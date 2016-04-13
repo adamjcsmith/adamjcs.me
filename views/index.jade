@@ -1,0 +1,23 @@
+html
+  head
+    title Offlinify: Take your Web Apps Offline
+    link(href='/static/bower_components/semantic/dist/semantic.min.css', rel='stylesheet')
+    link(href='/static/css/style.css', rel='stylesheet')
+  body
+    .ui.middle.aligned.centered.grid.container(style='height:100%;')
+      .row
+        .center.aligned.column
+          h1 Adam Smith
+          .ui.hidden.divider
+          p
+            i(class="ui small green star icon") &nbsp;
+            a(href='/static/files/cv.pdf') CV/Resumé &nbsp; - &nbsp;
+            i(class="ui small green square linkedin icon") &nbsp;
+            a(href='https://www.linkedin.com/in/adamjrsmith') LinkedIn &nbsp; - &nbsp;
+            i(class="ui small green square github icon") &nbsp;
+            a(href='https://www.github.com/adamjcsmith') GitHub
+
+    #content
+    script(src='/static/bower_components/react/react.min.js')
+    script(src='/static/bower_components/react/react-dom.min.js')
+    script(type='text/jsx', src='/static/js/cv-react.js')
