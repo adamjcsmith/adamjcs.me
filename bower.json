@@ -17,6 +17,7 @@
   ],
   "dependencies": {
     "semantic": "semantic-ui#^2.1.8",
-    "react": "^0.14.8"
+    "react": "^0.14.8",
+    "jquery-advanced-news-ticker": "risq/jquery-advanced-news-ticker#^1.0.1"
   }
 }

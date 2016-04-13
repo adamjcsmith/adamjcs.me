@@ -3,18 +3,29 @@ html
     title Adam Smith : Developer
     link(href='/static/bower_components/semantic/dist/semantic.min.css', rel='stylesheet')
     link(href='/static/css/style.css', rel='stylesheet')
-  body.green-blue-gradient
+    link(href='/static/fonts/fonts.css', rel='stylesheet')
+  body.shore-gradient
     .ui.middle.aligned.centered.grid.container(style='height:100%;')
       .row
-        .center.aligned.column
-          h1 Adam Smith
-          .ui.hidden.divider
+        .center.aligned.column.centre-box
+          h1.JennaSue Adam Smith
+          ul.newsticker.custom-ticker
+            li
+              h2 Full-stack Node.js Developer
+            li
+              h2
+                i.ui.small.grey.mail.icon &nbsp;
+                a(href='mailto:adamjcsmith@gmail.com')  adamjcsmith@gmail.com
+          .ui.divider.hidden
           p
-            i(class="ui small green star icon") &nbsp;
+            i.ui.small.grey.star.icon &nbsp;
             a(href='/static/files/Adam-CVXI.pdf') CV/Resumé &nbsp; - &nbsp;
-            i(class="ui small green square linkedin icon") &nbsp;
+            i.ui.small.grey.square.linkedin.icon &nbsp;
             a(href='https://www.linkedin.com/in/adamjrsmith') LinkedIn &nbsp; - &nbsp;
-            i(class="ui small green square github icon") &nbsp;
+            i.ui.small.grey.square.github.icon &nbsp;
             a(href='https://www.github.com/adamjcsmith') GitHub
 
     #content
+    script(src='/static/bower_components/jquery/dist/jquery.min.js')
+    script(src='/static/bower_components/jquery-advanced-news-ticker/js/newsTicker.js')
+    script $('.newsticker').newsTicker({ max_rows: 1, duration: 3500 });

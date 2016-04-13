@@ -1,7 +1,13 @@
 html, body { height: 100%; }
 .green-blue-gradient { background: #1CD8D2; background: linear-gradient(to left, #1CD8D2 , #93EDC7); }
-.pacifico { font-family: 'Pacifico', sans-serif; font-weight: 300; }
-.white { color: white; }
-h1 { font-weight: 400; }
-p { font-size: 1.5rem; }
-h1 { font-size: 2.5rem; }
+.shore-gradient { background: linear-gradient(to left, #70e1f5 , #ffd194); }
+h1, h2 { font-weight: 400; }
+h1 { font-size: 4rem; margin-bottom: 0; }
+h2 { font-size: 1.5rem; margin-top: 5px; }
+p a { font-size: 1.2rem; }
+.jennasue { font-family: 'jenna_sueregular', sans-serif; }
+
+.centre-box { background: rgba(255,255,255,0.33); border: solid 3px rgba(255,255,255,0.3); border-radius: 8px; padding: 35px !important; width: auto !important;  }
+.centre-box:hover { transition: all 1s ease; background: rgba(255,255,255,0.66); }
+
+.custom-ticker { height: 26px !important; padding: 0; margin: 0; }

@@ -18,10 +18,10 @@ app.use('/static', express.static('static'));
 
 // routes
 app.get('/', function(req, res) {
-	res.render('index', {title: 'This is a title', message: 'This is text'});
+	res.render('index');
 });
 
 // console
 app.listen(80, function() {
-	console.log("Offlinify.io Running");
+	console.log("adamjcs.me Running");
 });
