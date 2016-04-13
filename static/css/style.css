@@ -6,8 +6,8 @@ h1 { font-size: 4rem; margin-bottom: 0; }
 h2 { font-size: 1.5rem; margin-top: 5px; }
 p a { font-size: 1.2rem; }
 .jennasue { font-family: 'jenna_sueregular', sans-serif; }
-.centre-box { background: rgba(255,255,255,0.33); border: solid 3px rgba(255,255,255,0.3); border-radius: 8px; padding: 35px !important; width: auto !important;  }
-.centre-box:hover { transition: all 1s ease; background: rgba(255,255,255,0.66); }
+.centre-box { background: rgba(255,255,255,0.66); border: solid 3px rgba(255,255,255,0.3); border-radius: 8px; padding: 35px !important; width: auto !important;  }
+.centre-box:hover { transition: all 1s ease; background: rgba(255,255,255,0.8); }
 .custom-ticker { height: 26px !important; padding: 0; margin: 0; }
 
 @media (max-width: 600px) {
